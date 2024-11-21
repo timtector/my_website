@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/Users/timtector/Desktop/Web_developmet/my_website/Css/style.css" />
+    <title>Portmarnock Golf Club</title>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="/Users/timtector/Desktop/Web_developmet/index.html">Golf Review</a>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ml-lg-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/Users/timtector/Desktop/Web_developmet/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Users/timtector/Desktop/Web_developmet/my_website/html/courses.html">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Users/timtector/Desktop/Web_developmet/my_website/html/about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Users/timtector/Desktop/Web_developmet/my_website/html/contact.html">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+</nav>
+
+<h1 style="text-align: center; padding-top: 10px;">Portmarnock Golf Club</h1>
+
+<div class="container mt-5">
+  <img src="/Users/timtector/Desktop/Web_developmet/my_website/Photos/Portmarnock-golf-club-aerial.jpg" id="golfClub" class="img-fluid" alt="Architect Photo">
+
+  <div id="clubDetails" class="row mt-3">
+    <div class="col">
+      <h4><strong>Architect: William Pickeman</h4><h5>Location: Dublin, Ireland</h5><h5>Address: Golf Links Rd, Portmarnock, Co. Dublin, D13 KD96</h5><h5><a href="https://www.portmarnockgolfclub.ie/" target="_blank">https://www.portmarnockgolfclub.ie/</a></strong></h5>
+    </div>
+  </div>
+
+
+  <div class="container mt-4">
+    <div class="row">
+
+      <div class="col-md-3" style="background-color: green;">
+  
+        <h5 class="mt-3">Championships Hosted:</h5>
+        <ul>
+          <li>The Irish Open</li>
+          <li>1959 Dunlop Masters</li>
+          <li>The Canada Cup</li>
+          <li>1965 Dunlop Masters</li>
+          <li>Alcan Golfer of the Year Tournament</li>
+          <li>The Amateur Championship 1949</li>
+          <li>The Walker Cup</li>
+          <li>European Men's Amateur Team Championship</li>
+          <li>The St. Andrews & The Jacques Léglise Trophy</li>
+          <li>The Amateur Championship 2019</li>
+        </ul>
+      </div>
+  
+      <div style="text-align: center;" class="col-md-9">
+        <p>The clubhouse was built on its present site in 1896, It has undergone changes due to a fire (1905) and periodic additions to accommodate growing numbers. The present interior layout was completed in 2003. The Bradshaw Room and the Dining Room cater for members and visitors alike and afford panoramic views of the links. There are separate locker rooms with personal lockers and rest room for use by visitors and the bar and dining facilities are open to all. Full a la carte and table d'hote menus are available as are snacks and sandwiches.</p>
+        <img src="/Users/timtector/Desktop/Web_developmet/my_website/Photos/Portmarnock-golf-club-aerial.jpg" class="img-fluid" alt="Photo 1">
+        <p>In February, 1906 the plans for a new clubhouse were formed and accepted by members and the clubhouse reopened less than a year later. Further additions to the clubhouse were added over the years including staff quarters and in 2003 a major internal renovation project took place to modernize the growing requirements of members and guests.</p>
+        <img src="/Users/timtector/Desktop/Web_developmet/my_website/Photos/pgc.jpg" class="img-fluid" alt="Photo 2">
+        <p>The first place to be used as a clubhouse was a small thatched cottage rented from Maggie Leonard, it stood near the present 1st green. The first clubhouse proper was erected within two years of the club's foundation on the site of the present building. Made of timber with a corrugated iron roof it measured only 57x47 feet. Fire ravaged the clubhouse and contents on December 30th, 1905. The then Honorary Secretary, W.C. Pickeman was also an insurance broker so it turned out the club was well insured.</p>
+      </div>
+    </div>
+  </div>
+
+
+  
+  <div class="row mt-4">
+    <div class="col">
+      <h4 style="text-align: center;">Leave a Review <span>&#9997;</span></h4>
+      <form id="reviewForm">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="courseRating" class="form-label">Course Rating</label>
+          <select class="form-control" id="courseRating" required>
+            <option value="" disabled selected>Select option from dropdown</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+        </div>
+
+        <div class="mb-3">
+          <label for="review" class="form-label">Review</label>
+          <textarea class="form-control" id="review" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" onclick="submitReview()">Submit Review</button>
+      </form>
+    </div>
+  </div>
+</div> 
+
+<h2 style="text-align: center;">Reviews</h2>
+
+<div class="row mt-4" id="reviewsContainer">
+
+</div>
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/Users/timtector/Desktop/Web_developmet/my_website/javascript/review.js"></script>
+
+  </body>
+</html>

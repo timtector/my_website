@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+
+body {
+    background-color:aliceblue;
+    font-family: 'Gabarito';
+    }
+    header {
+        background-image: url("/Users/timtector/Desktop/Web_developmet/my_website/Photos/golfheader.jpg");
+        background-size: cover;
+        background-position: center;
+        color: rgb(77,33,33);
+        text-align: center;
+        padding: 40px 0;
+        margin-bottom: 10px;
+        text-decoration: none;
+    }
+    /*.navbar{
+
+        overflow: hidden;
+        top: 0;
+        position: relative;
+        width: 100%;
+    }     
+    .navbar a{
+        
+        display: block;
+        color: #fff;  Change this to your preferred text color 
+        float: right;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    .navbar :hover{
+        color: black;
+        transform: scale(1.2);
+    }*/
+    #title{
+        text-decoration: none;
+        color: rgb(77,33,33);
+    }
+    footer {
+    background-color: #333; /* Change to your preferred color */
+    color: #fff; /* Change to your preferred text color */
+    text-align: center;
+    padding: 10px;
+    }
+    /*.aboutpge {
+        background-image: url("/Users/timtector/Desktop/Web_developmet/Portmarnock-golf-club-aerial.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+    }*/
+    table, td{
+        width: 400px;
+        border: 1px solid black;
+        text-align: center;
+    }
+    .flexbox {
+        display: flex;
+
+
+    }
+    .flexbox div{
+        flex: 0 0 20%;
+        border: 2px solid black;
+        padding: 5px 5px;
+
+    }
+    #pgcmap{
+        float: right;
+        display: flex;
+        padding: 10px 12px;
+    }
+    img{
+        transform: 0.3s;
+    }
+    img :hover{
+    transform: scale(1.1);
+    box-shadow: 3px 3px 5px #888;
+    }
+
+    .img-thumbnail{
+        min-width: 200;
+        height: 200px;
+        padding-left: 100px;
+        background: none;
+        border: none;
+
+    }
+    .btn.btn-primary{
+        width: 100%;
+    }
+    .container img{
+        width: 300px;
+        padding: 20px;
+        height: 400px;
+    }
+    #carouselExampleRide{
+        width: 400px;
+        padding-top: 20px;
+
+    }
+    #carouselExampleRide img{
+        width: 300px;
+        height: 300px;
+
+
+    }
+    .card{
+        width: 300px;
+        display: inline-flex;
+    }
+    #carouselAboutPge {
+        width: 50%;
+        margin-left: 25%;
+    }
+    #carouselAboutPge img{
+        height: 300px;
+    }
+    #golfClub{
+        width: 100%;
+        padding: 0%;
+        
+    }
+    #clubDetails{
+        text-align: center;
+    }
+
+
+
+    /* input, select, textarea {
+        width: 100%; 
+        padding: 12px; 
+        border: 1px solid #ccc; 
+        border-radius: 4px; 
+        box-sizing: border-box; 
+        margin-top: 6px; 
+        margin-bottom: 16px; 
+        resize: vertical 
+      }
+      
+      
+      #reviewForm button[type=submit] {
+        background-color: #04AA6D;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      #reviewForm input[type=submit]:hover {
+        background-color: #45a049;
+      }
+      
+      .contactForm {
+        border-radius: 10px;
+        background-color: #f2f2f2;
+        padding: 50px;
+      }
+      .contactForm button[type=submit] {
+        background-color: #04AA6D;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      .contactForm input[type=submit]:hover {
+        background-color: #45a049;
+      }
+
+      #cf-title{
+        text-align: center;
+      } */
+
+      .divider-lg, .divider-sm {
+        background: #ab8c5f;
+        display: block;
+        height: 2px;
+        width: 130px;
+    }
+    #reviewForm {
+        border-radius: 10px;
+        
+        padding: 50px;
+        width: 100%;
+    }
+    #reviewSubmit{
+        text-align: center;
+    }
+    
+    /*
+    #about{
+        margin-top: 0;
+        font-size: 40px;
+        margin-bottom: 5px;
+        font-weight: 100;
+    }
+    .aboutPhoto{
+        width: 100%;
+        height: 350px;
+        display: flex;
+        justify-content: center;
+    }
+    .aboutPhoto img{
+        width: 35%;
+        height: 300px;
+        
+    }*/
+    /*
+    .jumbotron {
+        background-image: url('golf-course.jpg');
+        background-size: cover;
+        color: #fff;
+        text-align: center;
+        padding: 100px 0;
+        margin-bottom: 0;
+    }*/
+    .jumbotron {
+    background-color: #006400; /* Dark green */
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    margin-bottom: 0;
+    }
+    .feature {
+        padding: 50px 0;
+        text-align: center;
+    }
+
+    .feature img {
+        max-width: 100%;
+        height: auto;
+    }
+    #reviewsContainer{
+        padding-left: 10px;
+    }
+    #favCourse button{
+        width: 10vw;
+        height: 10vh;
+        text-align: center;
+    }
+    #course-list {
+        padding-left: 10px;
+    }
